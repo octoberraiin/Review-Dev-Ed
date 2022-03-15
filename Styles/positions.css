@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50%;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  background: coral;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 20%;
+    height: 20%;
+    background: rgb(127, 236, 227);
+}
+
+.box2 {
+    background: pink;
+    position: relative;
+    left: 3rem;
+}
+
+.box3 {
+    background: rgb(34, 34, 34);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.box1 {
+    position: sticky;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

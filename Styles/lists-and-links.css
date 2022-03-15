@@ -1,0 +1,12 @@
+#dead-link {
+    color: rgb(110, 141, 81);
+}
+
+.wishlist li{
+    color: chocolate;
+    list-style: none;
+}
+
+.links:nth-child(1) {
+    color: black;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 48%;
+  margin: 0.5%;
+  padding: 1rem;
+  height: 20rem;
+  border: 2px solid black;
+  font-size: 1rem;
+}
+
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.box3 {
+  width: 100%;
+}
